@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>quickdb</groupId>
+  <artifactId>QuickDB</artifactId>
+  <name>QuickDB</name>
+  <version>1.3-SNAPSHOT</version>
+  <url>http://code.google.com/p/quickdb/</url>
+  <description>QuickDB aims to develop a persistence library that allow the user to write only the Data Model, and the library will manage all the operations between the Entities and the Database, without writing any line of code for Connection, Sql, etc.</description>
+
+  <build>
+        <plugins>
+	    <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <developers>
+        <developer>
+            <id>gato</id>
+            <name>Diego Sarmentero</name>
+            <email>diego.sarmentero@gmail.com</email>
+            <url>http://diegosarmentero.com.ar</url>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-3</timezone>
+        </developer>
+    </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.5</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
